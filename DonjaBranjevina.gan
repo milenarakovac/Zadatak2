@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="DonjaBranjevina" company="" webLink="http://" view-date="2021-08-01" view-index="0" gantt-divider-location="581" resource-divider-location="300" version="2.8.11" locale="en_US">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="276" order="0"/>
+        <field id="tpd4" name="Begin date" width="151" order="1"/>
+        <field id="tpd5" name="End date" width="150" order="2"/>
+        <timeline><![CDATA[0]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0000 #ffff33 #cc33ff #6666ff #f4f4f4 #33cc00 #99ff99 #ccffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Sastavljanje arheoloske ekipe" color="#8cb6ce" meeting="false" start="2021-08-10" duration="9" complete="0" thirdDate="2021-08-23" thirdDate-constraint="0" expand="true">
+            <task id="3" name="Poziv za clanove arheoloske ekipe" color="#8cb6ce" meeting="false" start="2021-08-10" duration="2" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Javljanje zainteresovanih arheologa" color="#8cb6ce" meeting="false" start="2021-08-10" duration="7" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Odabir clanova za arheolosku ekipu" color="#8cb6ce" meeting="false" start="2021-08-16" duration="3" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="9" name="Arheoloska iskopavanja na Donjoj Branjevini" color="#8cb6ce" meeting="false" start="2021-08-23" duration="21" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+            <task id="20" name="Iskovanje predvidjenih sondi" color="#8cb6ce" meeting="false" start="2021-08-23" duration="21" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Instaliranje softvera za prikupljanje podataka" color="#8cb6ce" meeting="false" start="2021-09-11" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" webLink="https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Duk.co.lutraconsulting%26utm_source%3Dmergin-website%26utm_medium%3Dbanner%26utm_campaign%3Dinput" expand="true">
+                <notes><![CDATA[Input: QGIS in your pocket]]></notes>
+            </task>
+            <task id="10" name="Rekognosciranje njive" color="#8cb6ce" meeting="false" start="2021-09-12" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Clanovi ekipe upload-uju prkupljene podatke" color="#8cb6ce" meeting="false" start="2021-09-12" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[
+U aplikaciji je potrebno klinkuti na oblacic sa strelicom za odabrani projekat.
+Podaci se skladiste na Mergin cloud platformu.]]></notes>
+            </task>
+        </task>
+        <task id="16" name="Pocetak projektnog zadatka u QGIS-u" color="#8cb6ce" meeting="false" start="2021-09-20" duration="1" complete="0" thirdDate="2021-10-25" thirdDate-constraint="0" expand="true">
+            <task id="29" name="Exportovanje podataka sa Mergin clouda" color="#8cb6ce" meeting="false" start="2021-09-20" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" webLink="https%3A%2F%2Fplugins.qgis.org%2Fplugins%2FMergin%2F" expand="true">
+                <notes><![CDATA[Koristiti plugin Mergin]]></notes>
+            </task>
+            <task id="30" name="Importovanje podataka u QGIS" color="#8cb6ce" meeting="false" start="2021-09-20" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="31" name="Definisanje koordinatnog sistema" color="#8cb6ce" meeting="false" start="2021-09-20" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="37" name="Spajanje vise slojeva u jedan" color="#8cb6ce" meeting="false" start="2021-09-20" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="32" name="Uredjivanje atributativne tabele" color="#8cb6ce" meeting="false" start="2021-09-20" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="40" name="Obrada i analiza podataka u QGIS-u" color="#8cb6ce" meeting="false" start="2021-09-21" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true">
+            <task id="42" name="Ucitavanje rasterskog sloja Google Hibrid" color="#8cb6ce" meeting="false" start="2021-09-21" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="44" name="Podesavanje vidljivosti napravljenih fotografija" color="#8cb6ce" meeting="false" start="2021-09-21" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="Klasifikacija podataka po odredjenom kriterijumu" color="#8cb6ce" meeting="false" start="2021-09-21" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="48" name="Provera analiza" color="#8cb6ce" meeting="false" start="2021-09-22" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+        <task id="50" name="Izrada karti" color="#8cb6ce" meeting="false" start="2021-09-23" duration="1" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" expand="true"/>
+        <task id="52" name="Finalizacija celokupnog projekta i izrada pratece dokumentacije" color="#8cb6ce" meeting="false" start="2021-09-23" duration="20" complete="0" thirdDate="2021-08-01" thirdDate-constraint="0" priority="4" expand="true">
+            <notes><![CDATA[Clanovi ekipe salju svoje izvestaje,koje Project menager salje Ministarstvu kulture sa celokupnom dokumentacijom]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
